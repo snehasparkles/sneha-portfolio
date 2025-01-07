@@ -73,7 +73,7 @@ async function validateForm(event) {
   const downloadFile = () => {
     const link = document.createElement('a');
     link.download = 'M Sneha.pdf';
-    link.href = 'https://drive.google.com/file/d/1pyNyFHXa6RNz0TAvtAUKmTri1YvT54Pn/view?usp=sharing'; // Direct download link
+    link.href = 'https://drive.google.com/file/d/1Y5fMGM6VJkwRW-yRHHjprBVHFz-FtFgR/view?usp=sharing'; // Direct download link
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
